@@ -3,50 +3,155 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Research Links</title>
+  <title>Cheila Pereira | Research Links</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 700px;
-      margin: 60px auto;
-      padding: 20px;
+      background-color: #f7f7f7;
+      color: #222;
+      margin: 0;
+      padding: 40px 20px;
       line-height: 1.6;
+       }
+
+    .container {
+      max-width: 760px;
+      margin: auto;
+      background: white;
+      padding: 50px;
+      border-radius: 14px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
     }
-    h1 {
-      font-size: 1.8em;
-      margin-bottom: 10px;
+   font-size: 2.4em;
+      margin-bottom: 8px;
+      font-weight: 700;
     }
-    p {
-      color: #444;
+
+    .subtitle {
+      color: #555;
+      font-size: 1.05em;
+      margin-bottom: 24px;
     }
-    .links {
-      margin-top: 30px;
+
+    .description {
+      color: #666;
+      margin-bottom: 40px;
+      max-width: 650px;
     }
-    a {
+
+    .section-title {
+      font-size: 0.95em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #777;
+      margin-top: 35px;
+      margin-bottom: 14px;
+    }
+
+    .link-card {
       display: block;
-      padding: 12px 16px;
-      margin: 10px 0;
-      background: #f3f3f3;
-      border-radius: 8px;
       text-decoration: none;
-      color: #000;
+      color: #222;
+      background: #f3f3f3;
+      padding: 16px 18px;
+      border-radius: 10px;
+      margin-bottom: 14px;
+      transition: background 0.2s ease;
     }
-    a:hover {
-      background: #e6e6e6;
+
+    .link-card:hover {
+      background: #e8e8e8;
     }
+
+    .link-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .link-description {
+      color: #666;
+      font-size: 0.95em;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #888;
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+
+      .container {
+        padding: 30px 24px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+    }
+
   </style>
 </head>
+
 <body>
 
-  <h1>Cheila Pereira</h1>
-  <p>PhD Student at LAQV Requimte-University of Porto</p>
+  <div class="container">
 
-  <div class="links">
-    <a href="https://laqv.requimte.pt/people/3519-cheila_pereira">Author academic Profile & CV</a>
-    <a href="poster.pdf">Poster PDF</a>
-    <a href="https://laqv.requimte.pt/people/474-miguel_angelo_rodrigues_pinto_de_faria">Supervisor Miguel Faria</a>
-    <a href="https://laqv.requimte.pt/people/1563-sara_cunha">Supervisor Sara Cunha</a>
-    <a href="https://laqv.requimte.pt/people/1521-jose_fernandes">Supervisor José Fernandes</a>
+    <h1>Cheila Pereira</h1>
+
+    <p class="subtitle">
+      PhD Student · University of Porto
+    </p>
+
+    <p class="description">
+      Companion page for conference poster, with poster PDF and academic profile links.
+    </p>
+
+    <div class="section-title">Author Links</div>
+
+    <a class="link-card" href="https://laqv.requimte.pt/people/3519-cheila_pereira" target="_blank">
+      <div class="link-title">Academic Profile & CV</div>
+      <div class="link-description">
+        Institutional researcher page, publications, and curriculum vitae.
+      </div>
+    </a>
+
+    <a class="link-card" href="poster.pdf" target="_blank">
+      <div class="link-title">Poster PDF</div>
+      <div class="link-description">
+        Download or view the full conference poster.
+      </div>
+    </a>
+
+    <div class="section-title">Supervisors</div>
+
+    <a class="link-card" href="https://laqv.requimte.pt/people/474-miguel_angelo_rodrigues_pinto_de_faria" target="_blank">
+      <div class="link-title">Miguel Faria</div>
+      <div class="link-description">
+        Research profile and related projects.
+      </div>
+    </a>
+
+    <a class="link-card" href="https://laqv.requimte.pt/people/1563-sara_cunha" target="_blank">
+      <div class="link-title">Sara Cunha</div>
+      <div class="link-description">
+        Research profile and related projects.
+      </div>
+    </a>
+
+    <a class="link-card" href="https://laqv.requimte.pt/people/1521-jose_fernandes" target="_blank">
+      <div class="link-title">José Fernandes</div>
+      <div class="link-description">
+        Research profile and related projects.
+      </div>
+    </a>
+
+    <div class="footer">
+      Conference poster companion page
+    </div>
+
   </div>
 
 </body>
