@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cheila Pereira | Research Links</title>
+
   <style>
+
     body {
       font-family: Arial, sans-serif;
       background-color: #f7f7f7;
@@ -12,7 +14,7 @@
       margin: 0;
       padding: 40px 20px;
       line-height: 1.6;
-       }
+    }
 
     .container {
       max-width: 760px;
@@ -22,22 +24,49 @@
       border-radius: 14px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.06);
     }
-   font-size: 2.4em;
+
+    /* ---------- Logo Banner ---------- */
+
+    .logo-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .logo-bar img {
+      height: 70px;
+      object-fit: contain;
+    }
+
+    /* ---------- Header ---------- */
+
+    h1 {
+      font-size: 2.4em;
       margin-bottom: 8px;
       font-weight: 700;
+      text-align: center;
     }
 
     .subtitle {
       color: #555;
       font-size: 1.05em;
       margin-bottom: 24px;
+      text-align: center;
     }
 
     .description {
       color: #666;
       margin-bottom: 40px;
       max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
     }
+
+    /* ---------- Sections ---------- */
 
     .section-title {
       font-size: 0.95em;
@@ -73,12 +102,16 @@
       font-size: 0.95em;
     }
 
+    /* ---------- Footer ---------- */
+
     .footer {
       margin-top: 50px;
       font-size: 0.9em;
       color: #888;
       text-align: center;
     }
+
+    /* ---------- Mobile ---------- */
 
     @media (max-width: 700px) {
 
@@ -90,6 +123,10 @@
         font-size: 2em;
       }
 
+      .logo-bar img {
+        height: 55px;
+      }
+
     }
 
   </style>
@@ -99,6 +136,20 @@
 
   <div class="container">
 
+    <!-- Logo Banner -->
+
+    <div class="logo-bar">
+
+      <img src="conference_logo.png" alt="Conference Logo">
+
+      <img src="institution_logo.png" alt="Institution Logo">
+
+      <img src="university_logo.png" alt="University Logo">
+
+    </div>
+
+    <!-- Header -->
+
     <h1>Cheila Pereira</h1>
 
     <p class="subtitle">
@@ -106,8 +157,11 @@
     </p>
 
     <p class="description">
-      Companion page for conference poster, with poster PDF and academic profile links.
+      Companion page for conference poster with academic profiles,
+      publications, and poster PDF.
     </p>
+
+    <!-- Research Links -->
 
     <div class="section-title">Author Links</div>
 
@@ -125,28 +179,32 @@
       </div>
     </a>
 
+    <!-- Supervisors -->
+
     <div class="section-title">Supervisors</div>
 
     <a class="link-card" href="https://laqv.requimte.pt/people/474-miguel_angelo_rodrigues_pinto_de_faria" target="_blank">
       <div class="link-title">Miguel Faria</div>
       <div class="link-description">
-        Research profile and related projects.
+        Institutional researcher page, publications, and curriculum vitae.
       </div>
     </a>
 
     <a class="link-card" href="https://laqv.requimte.pt/people/1563-sara_cunha" target="_blank">
       <div class="link-title">Sara Cunha</div>
       <div class="link-description">
-        Research profile and related projects.
+        Institutional researcher page, publications, and curriculum vitae.
       </div>
     </a>
 
-    <a class="link-card" href="https://laqv.requimte.pt/people/1521-jose_fernandes" target="_blank">
+<a class="link-card" href="https://laqv.requimte.pt/people/1521-jose_fernandes" target="_blank">
       <div class="link-title">José Fernandes</div>
       <div class="link-description">
-        Research profile and related projects.
+        Institutional researcher page, publications, and curriculum vitae.
       </div>
     </a>
+    
+    <!-- Footer -->
 
     <div class="footer">
       Conference poster companion page
